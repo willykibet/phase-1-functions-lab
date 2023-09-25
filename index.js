@@ -1,4 +1,15 @@
 // Code your solution in this file!
+function distanceFromHqInBlocks(a) {
+  //returns the number of blocks given a value
+  let ans;
+  if (a >= 42) {
+    ans = a - 42;
+  } else ans = 42 - a;
+
+  return ans;
+}
+
+// Code your solution in this file!
 function distanceFromHqInFeet(a) {
   //returns the number of blocks given a value
   let distanceInFeet;
